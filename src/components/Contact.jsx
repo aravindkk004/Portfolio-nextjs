@@ -50,7 +50,7 @@ const Contact = () => {
       <Gradient />
       <div className="flex md:flex-row flex-col justify-center items-center">
         <div className="md:w-1/2 w-full flex items-center justify-center">
-          <form className="w-[80%] z-[20]" onSubmit={handleForm}>
+          <form className="w-[80%] z-[9]" onSubmit={handleForm}>
             <p className="text-white font-bold text-3xl">Get in Touch</p>
             <div>
               <div className="flex flex-col">
