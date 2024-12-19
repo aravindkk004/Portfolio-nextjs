@@ -31,47 +31,47 @@ This is a personal portfolio website built with [Next.js](https://nextjs.org/) a
 └── tailwind.config.js    # Tailwind CSS configuration
 ```
 
-## 🚀 Getting Started
-# 1. Clone the Repository
+# 🚀 Getting Started
+## 1. Clone the Repository
 ```
 git clone https://github.com/yourusername/portfolio.git
 cd portfolio
 ```
-# 2. Install Dependencies
+## 2. Install Dependencies
 ```
 npm install
 ```
-# 3. Configure Environment Variables
+## 3. Configure Environment Variables
 Create a .env.local file in the root directory and add your EmailJS credentials:
 ```
 NEXT_PUBLIC_SERVICE_ID=your_service_id
 NEXT_PUBLIC_TEMPLATE_ID=your_template_id
 NEXT_PUBLIC_PUBLIC_KEY=your_public_key
 ```
-# 4. Run the Development Server
+## 4. Run the Development Server
 ```
 npm run dev
 ```
 Visit http://localhost:3000 to view your portfolio in the browser.
 
-## 📦 Deployment
+# 📦 Deployment
 This project can be deployed on platforms like Vercel or Netlify.
 
-# Deploy on Vercel
+## Deploy on Vercel
 1. Push your code to GitHub.
 2. Connect your repository to Vercel.
 3. Add environment variables in the Vercel dashboard.
 4. Deploy your site.
    
-## 🛠️ Built With
+# 🛠️ Built With
 Next.js - React framework for production.
 Tailwind CSS - Utility-first CSS framework.
 EmailJS - For handling contact form submissions.
 
-## 📧 Contact
+# 📧 Contact
 Email: aravind463kk30@gmail.com
 LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/aravind-k-k-b1593024a/)
 GitHub: [Your GitHub](https://github.com/aravindkk004)
 
 
-# ⭐ If you like this project, don't forget to give it a star on GitHub!
+## ⭐ If you like this project, don't forget to give it a star on GitHub!
