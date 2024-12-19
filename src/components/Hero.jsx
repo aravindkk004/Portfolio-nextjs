@@ -8,9 +8,9 @@ import Gradient from "./Gradient";
 const Hero = () => {
   return (
     <>
-      <section id="hero" className="relative bg-secondary h-[100vh]">
+      <section id="hero" className="relative bg-secondary">
         <Gradient />
-        <div className="md:flex md:flex-row flex-col items-center justify-between pt-[160px] pb-[70px] px-[40px]">
+        <div className="md:flex md:flex-row flex-col items-center justify-between md:py-[180px] pt-[130px] pb-[70px] px-[40px]">
           <div className="md:w-1/2 w-full md:pl-[40px]">
             <h2 className="text-white md:text-5xl text-3xl font-extrabold">
               Hi👋, I'm{" "}
@@ -29,7 +29,7 @@ const Hero = () => {
             <div className="flex items-center gap-5 mt-5">
               <Link
                 href="#projects"
-                className="text-white border border-white py-2 px-5 rounded-md"
+                className="text-white border text-sm border-white py-2 px-5 rounded-md"
               >
                 View Projects
               </Link>
@@ -37,14 +37,14 @@ const Hero = () => {
                 href="https://github.com/aravindkk004?tab=repositories"
                 className="border border-white py-2 px-5 rounded-md cursor-pointer"
               >
-                <FaGithub className="text-white" size={25} />
+                <FaGithub className="text-white" size={20} />
               </Link>
 
               <Link
                 href="https://www.linkedin.com/in/aravind-k-k-b1593024a/"
                 className="border border-white py-2 px-5 rounded-md cursor-pointer"
               >
-                <FaLinkedin className="text-white" size={25} />
+                <FaLinkedin className="text-white" size={20} />
               </Link>
             </div>
           </div>

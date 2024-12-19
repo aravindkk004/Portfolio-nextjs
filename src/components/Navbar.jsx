@@ -23,7 +23,7 @@ const Navbar = () => {
         </Link>
       </div>
       <RiMenu3Line
-        size="2rem"
+        size="1.8rem"
         className="md:hidden cursor-pointer text-white"
         onClick={() => setOpenNav(!openNav)}
         aria-label="Toggle menu"
