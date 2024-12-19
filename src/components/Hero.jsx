@@ -10,7 +10,7 @@ const Hero = () => {
     <>
       <section id="hero" className="relative bg-secondary">
         <Gradient />
-        <div className="md:flex md:flex-row flex-col items-center justify-between md:py-[180px] pt-[130px] pb-[70px] px-[40px]">
+        <div className="md:flex md:flex-row flex-col items-center justify-between md:py-[180px] pt-[130px] pb-[70px] px-[30px]">
           <div className="md:w-1/2 w-full md:pl-[40px]">
             <h2 className="text-white md:text-5xl text-3xl font-extrabold">
               Hi👋, I'm{" "}
