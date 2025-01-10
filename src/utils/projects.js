@@ -1,5 +1,18 @@
 export const projects = [
   {
+    name: "Learn Sphere",
+    description: "LearnSphere is a Next.js platform that generates personalized notes. Users can access chapter-by-chapter notes, quizzes, flashcards, and track progress to improve their learning.",
+    tags: [
+      { name: "Next JS", color: "#56ccf2" },
+      { name: "MongoDB", color: "#11998e" },
+      { name: "Tailwind", color: "#ec008c" },
+    ],
+    image: "./images/learn-sphere.png",
+    source_code_link:
+      "https://github.com/aravindkk004/Learn-Sphere-LMS-nextjs-",
+    live:"https://aravindkk-learn-sphere.vercel.app/",
+  },
+  {
     name: "Mock Master",
     description:
       "MockMaster is an AI-driven mock interview tool that tailors questions, evaluates responses, and offers feedback with ratings. Built with Next.js and MongoDB.",
